@@ -10,8 +10,8 @@ workflows:
         # тут мають лежати APPSTORE_ISSUER_ID, APPSTORE_KEY_ID, APPSTORE_P8, APPLE_EMAIL
         - appstore-connect
       vars:
-        IOS_BUNDLE_ID: com.muhanovaproj.app
-        APP_NAME: Orchard Clash Mix
+        IOS_BUNDLE_ID: com.khriapaaproj.app
+        APP_NAME: Fruit Fury Fight
 
     scripts:
       - name: Print working dir & contents
